@@ -1,0 +1,21 @@
+.guide-slide .swiper-slide {height:100vh;}
+.swiper-slide .img-area {position:absolute; left:50%; bottom:0; transform: translateX(-50%); width: 29rem;}
+.swiper-slide:nth-child(4) .img-area {width: 33.1rem;}
+.swiper-slide .img-area img {width:100%;}
+.swiper-slide figcaption {text-align: center; margin-top:19.375vh;}
+.swiper-slide strong {line-height: 3.5rem; font-size: 2.5rem; font-weight: 700; color: #0A3CD2;}
+.swiper-slide p {margin-top:1rem; line-height: 2rem; font-size: 1.4rem;}
+
+.swiper-slide:last-child {background-color: #0A3CD2;}
+.swiper-slide .txt-area {position:absolute; top:0; left:50%; transform: translateX(-50%); z-index: 100;}
+.swiper-slide .txt-area h2 {margin: 21.87vh 0 1rem; line-height: 4.6rem; font-size: 3.5rem; font-weight: 700; color: #F8D970;}
+.swiper-slide .txt-area em {line-height: 2rem; font-size: 1.4rem; color: #FFF;}
+.swiper-slide .txt-area .btn-start {display: block; margin-top:3rem; width: 22.9rem; line-height: 4.8rem; background-color: #FFF; font-size: 1.8rem; font-weight: 700; text-align: center; color: #0A3CD2; border-radius: .8rem;}
+
+.swiper-slide:last-child .img-area2 {position: absolute; left:0; right:0; bottom:0; height:100vh;}
+.swiper-slide:last-child .img-area2:before {content:""; display:block; height: 100%; background: url(../image/bg_guide.png) no-repeat center bottom / 100% auto;}
+
+.swiper-pagination-bullets.swiper-pagination {top:6.9rem; bottom:auto!important;}
+.swiper-pagination .swiper-pagination-bullet {margin: 0 .5rem; background-color: #E0E0E0; opacity: 1;}
+.swiper-pagination .swiper-pagination-bullet-active {width: 2rem; background-color: #0A3CD2; border-radius: .8rem;}
+
